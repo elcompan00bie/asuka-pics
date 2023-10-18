@@ -1,0 +1,23 @@
+.main-container{
+    margin:0 auto;
+    width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title{
+    margin:16px 0;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card{
+    margin:8px auto 0;
+    width:100%;
+    max-width: 250px;
+    font-family: 'Roboto',sans-serif;
+    font-size:1.4rem;
+    font-weight: 400;
+}
