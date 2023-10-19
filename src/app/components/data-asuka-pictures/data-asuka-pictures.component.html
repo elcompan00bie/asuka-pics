@@ -1,0 +1,10 @@
+<!-- <p>{{asukaPictures|json}}</p> -->
+<main class="main-container">
+    <h1 class="title">Asuka pictures</h1>
+    <app-asuka-picture class="card" *ngFor="let asukaPicture of asukaPictures;"
+      [imgUrl]=asukaPicture.pictureUrl
+      [title]=asukaPicture.title
+      [likes]=asukaPicture.metrics.countLikes
+      [hearts]=asukaPicture.metrics.countHearts
+    ></app-asuka-picture>
+</main>
