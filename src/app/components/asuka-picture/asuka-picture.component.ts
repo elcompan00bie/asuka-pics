@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-asuka-picture',
@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./asuka-picture.component.css']
 })
 export class AsukaPictureComponent {
-  public message:string='Asuka picture';
+  @Input() imgUrl:string='Image url';
+  @Input() title:string='title of image';
+  @Input() likes:number=0;
+  @Input() hearts:number=0;
 }

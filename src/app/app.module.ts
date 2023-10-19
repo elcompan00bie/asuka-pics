@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AsukaPictureComponent } from './components/asuka-picture/asuka-picture.component';
+import { DataAsukaPicturesComponent } from './components/data-asuka-pictures/data-asuka-pictures.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AsukaPictureComponent
+    AsukaPictureComponent,
+    DataAsukaPicturesComponent
   ],
   imports: [
     BrowserModule,

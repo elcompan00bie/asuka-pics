@@ -1,12 +1,12 @@
-<img class="card__picture" src="../assets/pictures/asuka-picture0.png" alt="Asuka pictures">
+<img class="card__picture" [src]="imgUrl" alt="Asuka pictures">
 <article class="content">
-    <p class="content__title">Asuka picture title</p>
+    <p class="content__title">{{title}}</p>
     <div class="metrics">
         <div class="metrics__content">
-            <span class="icon icon--like"></span><span class="count">0</span>
+            <span class="icon icon--like"></span><span class="count">{{likes}}</span>
         </div>
         <div class="metrics__content">
-            <span class="icon icon--heart"></span><span class="count">0</span>
+            <span class="icon icon--heart"></span><span class="count">{{hearts}}</span>
         </div>
     </div>
 </article>
